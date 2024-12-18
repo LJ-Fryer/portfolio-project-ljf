@@ -1,0 +1,10 @@
+/* font-family: "Poppins", sans-serif;
+ font-family: "Nunito", sans-serif;*/
+
+h1 {
+  color: blue;
+  font-family: "Poppins", sans-serif;
+}
+p {
+  font-family: "Nunito", sans-serif;
+}

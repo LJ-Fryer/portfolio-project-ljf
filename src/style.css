@@ -1,14 +1,18 @@
+:root {
+  --primary-color: #008080;
+  --text-color: #fef9f1;
+  --heading-font-family: "Poppins", sans-serif;
+  --default-font-family: "Nunito", sans-serif;
+}
 body {
-  background-color: #008080;
+  background-color: var(--primary-color);
 }
 h1 {
-  font-family: "Poppins", sans-serif;
-  color: #fef9f1;
+  font-family: var(--heading-font-family);
   font-size: 96px;
 }
 p {
-  font-family: "Nunito", sans-serif;
-  color: #fef9f1;
+  font-family: var(--default-font-family);
 }
 img {
   max-width: 400px;
@@ -21,4 +25,11 @@ img {
 .hero-inner {
   margin: 156px 156px;
   gap: 32px;
+}
+.name-title {
+  color: var(--text-color);
+  letter-spacing: 0.5em;
+}
+.hero p {
+  color: var(--text-color);
 }

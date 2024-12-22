@@ -5,10 +5,11 @@
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Nunito", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --text-shadow: 1px 1px 2px rgb(160, 160, 160);
 }
 .light-text {
   color: var(--text-color);
-  text-shadow: 1px 1px 2px rgb(160, 160, 160);
+  text-shadow: var(--text-shadow);
 }
 body {
   background-color: var(--primary-color);
@@ -21,15 +22,13 @@ h3 {
 }
 h1 {
   font-size: 96px;
+  text-shadow: var(--text-shadow);
 }
 p {
   color: var(--text-color);
 }
-.hero {
-  height: 640px;
-}
 .hero-inner {
-  margin: 156px 156px;
+  margin: 236px 156px;
   gap: 32px;
 }
 .name-title {
@@ -43,13 +42,17 @@ p {
   max-width: 350px;
   max-height: 350px;
 }
-.project-image {
-  padding: 24px;
-  border-radius: 36px;
-}
+
 .project-slides {
   box-shadow: var(--box-shadow);
   padding-bottom: 36px;
+  height: 100%;
+}
+.project-image {
+  padding: 24px;
+  border-radius: 36px;
+  max-width: 100%;
+  height: auto;
 }
 .project-description {
   padding: 0 36px;
@@ -64,4 +67,45 @@ p {
   text-transform: capitalize;
   text-align: center;
   box-shadow: var(--box-shadow);
+}
+@media (max-width: 936px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  h3 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 14px;
+  }
+  .hero {
+    padding: 100px 5px;
+  }
+  .hero-inner {
+    flex-direction: column-reverse;
+    margin: 0 auto;
+  }
+  .hero-image {
+    margin: 0 auto;
+  }
+  .hero-text {
+    text-align: center;
+  }
+  .project-slides {
+    display: block;
+    margin: 0 auto;
+    max-width: 80%;
+  }
+  .project-description {
+    margin-top: 16px;
+  }
+  .project-link {
+    border-radius: 4px;
+    padding: 10px 12px;
+    font-size: 12px;
+    font-weight: 700;
+  }
 }

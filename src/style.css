@@ -22,7 +22,11 @@ h3 {
 }
 h1 {
   font-size: 96px;
+  line-height: 1.5;
   text-shadow: var(--text-shadow);
+}
+h2 {
+  line-height: 1.5;
 }
 p {
   color: var(--text-color);
@@ -70,7 +74,7 @@ p {
 }
 @media (max-width: 936px) {
   h1 {
-    font-size: 60px;
+    font-size: 40px;
   }
   h2 {
     font-size: 20px;
@@ -81,12 +85,10 @@ p {
   p {
     font-size: 14px;
   }
-  .hero {
-    padding: 100px 5px;
-  }
   .hero-inner {
     flex-direction: column-reverse;
-    margin: 0 auto;
+    margin: 16px auto;
+    padding: 100px, 5px;
   }
   .hero-image {
     margin: 0 auto;

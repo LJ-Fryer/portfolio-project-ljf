@@ -96,7 +96,7 @@ h2 {
   gap: 36px;
 }
 .toolkit-container {
-  background-color: var(--text-color);
+  background-color: rgba(254, 249, 241, 0.8);
   padding: 48px;
   margin: 0 324px;
   border-radius: 24px;

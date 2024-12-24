@@ -29,6 +29,18 @@ h1 {
 h2 {
   line-height: 1.5;
 }
+.skills li {
+  list-style: none;
+}
+.skills-text {
+  font-size: 10px;
+  font-weight: 500;
+  background-color: var(--primary-color);
+  padding: 1px 2px;
+  font-family: var(--heading-font-family);
+  border-radius: 4px;
+  box-shadow: var(--box-shadow);
+}
 .temp-link {
   color: var(--text-color);
 }
@@ -79,7 +91,7 @@ h2 {
 }
 .personal-links {
   font-size: 48px;
-  gap: 64px;
+  gap: 96px;
 }
 .personal-links a {
   color: var(--text-color);
@@ -88,6 +100,9 @@ h2 {
   gap: 32px;
   margin: 96px 156px 48px;
 }
+.toolkit-title {
+  letter-spacing: 0.2em;
+}
 .toolkit img {
   max-height: 48px;
   max-width: 48px;
@@ -95,12 +110,11 @@ h2 {
 .toolkit {
   margin: 0 auto;
   justify-content: center;
-  gap: 36px;
+  gap: 24px;
   max-width: fit-content;
 }
-.toolkit-two img {
-  max-height: 48px;
-  max-width: 48px;
+.down-icon {
+  font-size: 36px;
 }
 
 .toolkit-container {
@@ -117,7 +131,7 @@ h2 {
     font-size: 40px;
   }
   h2 {
-    font-size: 20px;
+    font-size: 28px;
   }
   h3 {
     font-size: 24px;

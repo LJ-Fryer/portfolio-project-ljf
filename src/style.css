@@ -49,6 +49,7 @@ h2 {
   max-width: 350px;
   max-height: 350px;
   border-radius: 50%;
+  box-shadow: var(--box-shadow);
 }
 .skills li {
   list-style: none;

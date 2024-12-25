@@ -20,14 +20,35 @@ h1,
 h2,
 h3 {
   font-family: var(--heading-font-family);
+  text-shadow: var(--text-shadow);
 }
 h1 {
   font-size: 64px;
   line-height: 1.5;
-  text-shadow: var(--text-shadow);
+  letter-spacing: 0.2em;
 }
 h2 {
   line-height: 1.5;
+}
+.temp-link {
+  color: var(--text-color);
+}
+.name-title {
+  font-size: 96px;
+}
+.hero-inner {
+  margin: 236px 156px;
+  gap: 32px;
+}
+.about-me-inner {
+  gap: 32px;
+  margin: 96px 156px 48px;
+}
+.hero-image,
+.about-me-image {
+  max-width: 350px;
+  max-height: 350px;
+  border-radius: 50%;
 }
 .skills li {
   list-style: none;
@@ -40,29 +61,6 @@ h2 {
   font-family: var(--heading-font-family);
   border-radius: 4px;
   box-shadow: var(--box-shadow);
-}
-.temp-link {
-  color: var(--text-color);
-}
-.name-title {
-  font-size: 96px;
-  line-height: 1.5;
-  text-shadow: var(--text-shadow);
-  letter-spacing: 0.2em;
-}
-.hero-inner {
-  margin: 236px 156px;
-  gap: 32px;
-}
-.hero-image {
-  max-width: 350px;
-  max-height: 350px;
-  border-radius: 50%;
-}
-.about-image {
-  max-height: 350px;
-  max-width: 350px;
-  border-radius: 50%;
 }
 .project-slides {
   box-shadow: var(--box-shadow);
@@ -96,10 +94,7 @@ h2 {
 .personal-links a {
   color: var(--text-color);
 }
-.about-page-inner {
-  gap: 32px;
-  margin: 96px 156px 48px;
-}
+
 .toolkit-title {
   letter-spacing: 0.2em;
 }
@@ -111,13 +106,12 @@ h2 {
   margin: 0 auto;
   justify-content: center;
   gap: 24px;
-  max-width: fit-content;
 }
 .down-icon {
   font-size: 36px;
 }
 
-.toolkit-container {
+.skills-container {
   background-color: rgba(254, 249, 241, 0.8);
   padding: 48px;
   border-radius: 24px;
@@ -139,32 +133,31 @@ h2 {
   p {
     font-size: 14px;
   }
+  .name-title {
+    font-size: 64px;
+  }
+  .hero-inner,
+  .about-me-inner {
+    margin: 16px auto;
+    padding: 100px, 5px;
+  }
   .hero-inner {
     flex-direction: column-reverse;
-    margin: 16px auto;
-    padding: 100px, 5px;
   }
-  .hero-image {
-    margin: 0 auto;
-    max-width: 250px;
-    max-height: 250px;
-  }
-  .hero-text {
-    text-align: center;
-  }
-  .about-page-inner {
+  .about-me-inner {
     flex-direction: column;
-    margin: 16px auto;
-    padding: 100px, 5px;
   }
-  .about-image {
+  .hero-image,
+  .about-me-image {
     margin: 0 auto;
     max-width: 250px;
     max-height: 250px;
   }
-  .about-text {
+  .hero-text,
+  .about-me-text {
     text-align: center;
   }
+
   .project-slides {
     display: block;
     margin: 0 auto;
@@ -179,6 +172,7 @@ h2 {
     font-size: 12px;
     font-weight: 700;
   }
+
   .toolkit {
     gap: 18px;
   }

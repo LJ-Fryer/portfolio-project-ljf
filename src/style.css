@@ -23,7 +23,7 @@ h3 {
   text-shadow: var(--text-shadow);
 }
 h1 {
-  font-size: 64px;
+  font-size: 60px;
   line-height: 1.5;
   letter-spacing: 0.2em;
 }
@@ -33,15 +33,18 @@ h2 {
 .temp-link {
   color: var(--text-color);
 }
+.hero {
+  padding-bottom: 96px;
+}
 .name-title {
-  font-size: 96px;
+  font-size: 72px;
 }
 .hero-inner {
-  margin: 236px 156px;
+  margin: 156px 156px;
   gap: 32px;
 }
 .about-me-inner {
-  gap: 32px;
+  gap: 56px;
   margin: 96px 156px 48px;
 }
 .hero-image,
@@ -123,7 +126,7 @@ h2 {
   margin: 0 auto;
 }
 
-@media (max-width: 936px) {
+@media (max-width: 992px) {
   h1 {
     font-size: 40px;
   }
@@ -137,12 +140,12 @@ h2 {
     font-size: 14px;
   }
   .name-title {
-    font-size: 64px;
+    font-size: 60px;
   }
   .hero-inner,
   .about-me-inner {
     margin: 16px auto;
-    padding: 100px, 5px;
+    padding: 100px 5px;
   }
   .hero-inner {
     flex-direction: column-reverse;
@@ -182,5 +185,10 @@ h2 {
   .toolkit img {
     max-height: 32px;
     max-width: 32px;
+  }
+}
+@media (min-width: 993px) and (max-width: 1200px) {
+  .hero-inner {
+    margin: 144px 48px;
   }
 }

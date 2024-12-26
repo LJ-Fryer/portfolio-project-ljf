@@ -30,6 +30,7 @@ h1 {
   text-transform: uppercase;
 }
 h2 {
+  font-size: 28px;
   line-height: 1.5;
 }
 .temp-link {
@@ -77,6 +78,7 @@ ul {
 }
 .project-slides {
   box-shadow: var(--box-shadow);
+  border-radius: 12px;
   padding-bottom: 36px;
   height: 100%;
 }

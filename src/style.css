@@ -191,4 +191,7 @@ h2 {
   .hero-inner {
     margin: 144px 48px;
   }
+  .about-me-inner {
+    margin: 86px 48px 44px;
+  }
 }

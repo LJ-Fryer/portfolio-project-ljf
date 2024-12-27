@@ -1,7 +1,7 @@
 :root {
   --primary-color: #008080 !important;
   --secondary-color: #0076ba !important;
-  --text-color: #fef9f1;
+  --text-color: rgb(254, 249, 241);
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Nunito", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
@@ -67,11 +67,10 @@ h2 {
   box-shadow: var(--box-shadow);
   background-color: rgb(0, 128, 140);
 }
-h1,
 .contact-heading {
   font-family: var(--default-font-family);
   text-transform: lowercase;
-  font-size: 36px;
+  font-size: 40px;
 }
 ul {
   padding: 24px;
@@ -165,6 +164,17 @@ ul {
   font-size: 146px;
   font-weight: 400;
   font-style: normal;
+}
+.down-pointer {
+  font-size: 20px;
+}
+.coding-links {
+  gap: 36px;
+  padding: 12px 24px;
+  border-radius: 24px;
+
+  background-color: rgba(254, 249, 241, 0.8);
+  box-shadow: var(--box-shadow);
 }
 @media (max-width: 992px) {
   h1 {

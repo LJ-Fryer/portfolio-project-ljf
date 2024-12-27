@@ -50,12 +50,28 @@ h2 {
   gap: 56px;
   margin: 96px 156px 48px;
 }
+.contact-inner {
+  gap: 112px;
+  margin: 48px 48px;
+}
 .hero-image,
 .about-me-image {
   max-width: 350px;
   max-height: 350px;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
+}
+.hello-box {
+  padding: 48px;
+  border-radius: 50%;
+  box-shadow: var(--box-shadow);
+  background-color: rgb(0, 128, 140);
+}
+h1,
+.contact-heading {
+  font-family: var(--default-font-family);
+  text-transform: lowercase;
+  font-size: 36px;
 }
 ul {
   padding: 24px;
@@ -145,7 +161,11 @@ ul {
   max-width: 100%;
   max-height: 80px;
 }
-
+.hello-text {
+  font-size: 146px;
+  font-weight: 400;
+  font-style: normal;
+}
 @media (max-width: 992px) {
   h1 {
     font-size: 40px;
@@ -212,6 +232,7 @@ ul {
     max-width: 32px;
   }
 }
+
 @media (min-width: 993px) and (max-width: 1200px) {
   .hero-inner {
     margin: 144px 48px;

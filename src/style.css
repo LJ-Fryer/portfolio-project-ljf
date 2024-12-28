@@ -1,11 +1,12 @@
 :root {
   --primary-color: #008080 !important;
   --secondary-color: #0076ba !important;
-  --text-light: rgb(254, 249, 241) !important;
+  --text-light: #fef9f1 !important;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Nunito", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --text-shadow: 1px 1px 2px rgb(160, 160, 160);
+  --bg-light: #fef9f1 !important;
 }
 body {
   background-color: var(--primary-color);
@@ -32,6 +33,13 @@ h2 {
 ul {
   padding: 24px;
   margin: 0;
+}
+.ljf-logo {
+  max-height: 42px;
+  max-width: 100%;
+  border: 3px solid var(--text-light);
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
 }
 .temp-link {
   color: var(--text-light);

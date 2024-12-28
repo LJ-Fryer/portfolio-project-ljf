@@ -64,7 +64,7 @@ ul {
 }
 .contact-inner {
   gap: 112px;
-  margin: 48px 48px;
+  margin: 96px 48px 192px;
 }
 .hero-image,
 .about-me-image {
@@ -161,8 +161,8 @@ ul {
   gap: 24px;
 }
 .slide-logos {
-  max-width: 100%;
-  max-height: 48px;
+  width: 100%;
+  height: 48px;
 }
 .sandbox-logo {
   max-width: 100%;
@@ -183,6 +183,21 @@ ul {
 
   background-color: rgba(254, 249, 241, 0.8);
   box-shadow: var(--box-shadow);
+}
+.footer-email {
+  text-decoration: none;
+  color: var(--text-light);
+  font-size: 18px;
+  text-shadow: var(--text-shadow);
+  vertical-align: bottom;
+}
+.footer-logos {
+  max-height: 42px;
+  max-width: 100%;
+}
+.linkedin-logo {
+  color: var(--text-light);
+  font-size: 42px;
 }
 @media (max-width: 992px) {
   h1 {

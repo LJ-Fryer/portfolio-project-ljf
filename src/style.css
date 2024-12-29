@@ -38,6 +38,9 @@ footer {
   margin-left: 24px;
   margin-right: 24px;
 }
+a {
+  color: var(--text-light);
+}
 .ljf-logo {
   max-height: 42px;
   max-width: 100%;
@@ -227,9 +230,6 @@ footer {
   }
   ul {
     padding: 12px;
-  }
-  a {
-    color: var(--text-light);
   }
   .name-title {
     font-size: 60px;

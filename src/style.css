@@ -190,6 +190,12 @@ footer {
   text-shadow: var(--text-shadow);
   vertical-align: bottom;
 }
+.footer-email-container {
+  gap: 10px;
+}
+.footer-email-icon {
+  font-size: 24px;
+}
 .footer-logos {
   max-height: 42px;
   max-width: 100%;
@@ -197,6 +203,11 @@ footer {
 .linkedin-logo {
   color: var(--text-light);
   font-size: 42px;
+}
+@media (max-width: 768px) {
+  .footer-email {
+    display: none;
+  }
 }
 @media (max-width: 992px) {
   h1 {
@@ -216,6 +227,9 @@ footer {
   }
   ul {
     padding: 12px;
+  }
+  a {
+    color: var(--text-light);
   }
   .name-title {
     font-size: 60px;

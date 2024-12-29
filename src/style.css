@@ -273,7 +273,6 @@ a {
   }
   .personal-links {
     font-size: 38px;
-    gap: 48px;
   }
   .contact-heading {
     font-size: 32px;
@@ -309,10 +308,6 @@ a {
   }
   .toolkit {
     gap: 4px;
-  }
-  .skills img {
-    max-height: 32px;
-    max-width: 32px;
   }
   .coding-links {
     gap: 14px;

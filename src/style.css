@@ -44,6 +44,9 @@ a {
   font-weight: 750;
   text-shadow: var(--text-shadow);
 }
+p {
+  font-size: 14px;
+}
 .ljf-logo {
   max-height: 42px;
   max-width: 100%;

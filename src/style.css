@@ -71,7 +71,7 @@ p {
   margin: 118px 156px;
   gap: 32px;
 }
-.about-me-inner {
+.about-inner {
   gap: 56px;
   margin: 42px 156px 42px;
 }
@@ -80,7 +80,7 @@ p {
   margin: 96px 48px 192px;
 }
 .hero-image,
-.about-me-image {
+.about-image {
   max-width: 350px;
   max-height: 350px;
   border-radius: 50%;
@@ -166,7 +166,7 @@ p {
   font-size: 36px;
 }
 
-.skills-container {
+.about-toolkit-box {
   background-color: rgba(254, 249, 241, 0.8);
   padding: 18px;
   border-radius: 24px;
@@ -253,21 +253,21 @@ p {
     font-size: 60px;
   }
   .hero-inner,
-  .about-me-inner {
+  .about-inner {
     margin: 16px auto;
     padding: 100px 5px;
   }
   .hero-inner {
     flex-direction: column-reverse;
   }
-  .about-me-inner {
+  .about-inner {
     flex-direction: column;
   }
   .contact-inner {
     flex-direction: column;
   }
   .hero-image,
-  .about-me-image {
+  .about-image {
     margin: 0 auto;
     max-width: 250px;
     max-height: 250px;
@@ -282,7 +282,7 @@ p {
     font-size: 32px;
   }
   .hero-text,
-  .about-me-text {
+  .about-text {
     text-align: center;
   }
 
@@ -326,7 +326,7 @@ p {
   .hero-inner {
     margin: 144px 48px;
   }
-  .about-me-inner {
+  .about-inner {
     margin: 86px 48px 44px;
   }
 }

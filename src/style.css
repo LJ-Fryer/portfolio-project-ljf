@@ -64,7 +64,7 @@ p {
 .hero {
   padding-bottom: 96px;
 }
-.name-title {
+.hero-title {
   font-size: 72px;
 }
 .hero-inner {
@@ -112,7 +112,7 @@ p {
   border-radius: 4px;
   box-shadow: var(--box-shadow);
 }
-.project-slides {
+.project-card {
   box-shadow: var(--box-shadow);
   border-radius: 12px;
   padding-bottom: 36px;
@@ -137,6 +137,10 @@ p {
   text-transform: capitalize;
   text-align: center;
   box-shadow: var(--box-shadow);
+}
+.about-hobby-images {
+  max-height: 200px;
+  max-width: 100%;
 }
 .personal-links {
   font-size: 48px;
@@ -248,7 +252,7 @@ p {
   ul {
     padding: 12px;
   }
-  .name-title {
+  .hero-title {
     font-size: 60px;
   }
   .hero-inner,
@@ -285,7 +289,7 @@ p {
     text-align: center;
   }
 
-  .project-slides {
+  .project-card {
     display: block;
     margin: 0 auto;
     max-width: 80%;

@@ -196,18 +196,15 @@ p {
   background-color: rgba(254, 249, 241, 0.8);
   box-shadow: var(--box-shadow);
 }
-.footer-email {
-  text-decoration: none;
-  color: var(--text-light);
+.footer-email-link {
   font-size: 18px;
-  text-shadow: var(--text-shadow);
   vertical-align: bottom;
 }
-.footer-email-container {
+.footer-email-box {
   gap: 10px;
 }
 .footer-email-icon {
-  font-size: 24px;
+  font-size: 28px;
 }
 .footer-paragraph {
   font-size: 12px;

@@ -1,9 +1,9 @@
 :root {
   --primary-color: #008080 !important;
   --secondary-color: #0076ba !important;
-  --text-light: #fef9f1;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Nunito", sans-serif;
+  --text-light: #fef9f1;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --text-shadow: 1px 1px 2px rgb(160, 160, 160);
 }
@@ -57,7 +57,7 @@ footer {
   padding-bottom: 96px;
 }
 .hero-inner {
-  margin: 118px 156px;
+  margin: 106px 140px;
   gap: 32px;
 }
 .hero-title {
@@ -65,8 +65,8 @@ footer {
 }
 .hero-image,
 .about-image {
-  max-width: 350px;
-  max-height: 100%;
+  max-height: 350px;
+  max-width: 100%;
   border-radius: 50%;
   box-shadow: var(--box-shadow);
 }
@@ -102,6 +102,7 @@ footer {
 }
 .down-icon {
   font-size: 36px;
+  color: rgba(254, 249, 241, 0.8);
 }
 .toolkit-title {
   letter-spacing: 0.2em;
@@ -165,6 +166,11 @@ footer {
   font-size: 40px;
   text-transform: lowercase;
 }
+.about-links {
+  gap: 72px;
+  font-size: 48px;
+}
+
 .personal-links {
   gap: 96px;
   font-size: 48px;
@@ -202,7 +208,7 @@ footer {
   margin: 12px auto;
   padding: 4px 8px;
   border-radius: 6px;
-  background-color: rgb(1, 189, 186, 0.5);
+  background-color: rgba(1, 189, 186, 0.5);
   font-size: 12px;
 }
 .footer-paragraph a {
@@ -210,12 +216,34 @@ footer {
 }
 
 .about-hobby-images {
-  max-height: 200px;
+  gap: 36px;
+}
+.hobby-image-4-3 {
+  max-width: 153px;
+  max-height: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgba(1, 189, 186, 0.5);
+  box-shadow: var(--box-shadow);
+}
+.hobby-image-3-4 {
+  max-height: 153px;
   max-width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  background-color: rgba(1, 189, 186, 0.5);
+  box-shadow: var(--box-shadow);
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .about-hobby-images {
+    margin-left: 20%;
+    margin-right: 20%;
+  }
 }
 
 @media (max-width: 768px) {
-  .footer-email {
+  .footer-email-link {
     display: none;
   }
 }
@@ -272,6 +300,13 @@ footer {
   .about-inner {
     flex-direction: column;
   }
+  .about-hobby-images {
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .lj-pole-image {
+    margin-bottom: -51px;
+  }
   .toolkit {
     gap: 4px;
   }
@@ -302,7 +337,7 @@ footer {
     font-size: 32px;
   }
   .personal-links {
-    font-size: 38px;
+    font-size: 42px;
   }
   .coding-links {
     padding: 8px 16px;

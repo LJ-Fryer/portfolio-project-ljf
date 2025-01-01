@@ -147,7 +147,7 @@ footer {
 }
 
 .contact-inner {
-  margin: 80px 48px 186px;
+  margin: 76px 48px 182px;
   gap: 112px;
 }
 .hello-box {
@@ -239,17 +239,20 @@ footer {
     margin-bottom: -51px;
   }
 }
-
-@media (min-width: 768px) and (max-width: 991px) {
-  .about-hobby-images {
-    margin-left: 20%;
-    margin-right: 20%;
+@media (max-width: 447px) {
+  .footer-paragraph {
+    font-size: 8px;
   }
 }
-
 @media (max-width: 768px) {
   .footer-email-link {
     display: none;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .about-hobby-images {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
 @media (max-width: 992px) {
@@ -335,9 +338,13 @@ footer {
 
   .contact-inner {
     flex-direction: column;
+    gap: 48px;
   }
   .hello-text {
-    font-size: 72px;
+    font-size: 116px;
+  }
+  .contact-links {
+    margin-top: 24px;
   }
   .contact-heading {
     font-size: 32px;

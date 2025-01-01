@@ -234,6 +234,11 @@ footer {
   background-color: rgba(1, 189, 186, 0.5);
   box-shadow: var(--box-shadow);
 }
+@media (min-width: 385px) and (max-width: 992px) {
+  .lj-pole-image {
+    margin-bottom: -51px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 991px) {
   .about-hobby-images {
@@ -266,6 +271,9 @@ footer {
   p {
     font-size: 14px;
   }
+  .hero {
+    padding-bottom: 24px;
+  }
 
   .hero-inner {
     flex-direction: column-reverse;
@@ -273,7 +281,7 @@ footer {
   .hero-inner,
   .about-inner {
     margin: 16px auto;
-    padding: 100px 5px;
+    padding: 12px 6px;
   }
   .hero-title {
     font-size: 60px;
@@ -304,9 +312,7 @@ footer {
     gap: 10px;
     flex-wrap: wrap;
   }
-  .lj-pole-image {
-    margin-bottom: -51px;
-  }
+
   .toolkit {
     gap: 4px;
   }

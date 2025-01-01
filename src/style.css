@@ -35,9 +35,9 @@ ul {
   margin: 0;
 }
 a {
+  font-weight: 750;
   color: var(--text-light);
   text-decoration: none;
-  font-weight: 750;
   text-shadow: var(--text-shadow);
 }
 p {
@@ -73,35 +73,35 @@ footer {
   box-shadow: var(--box-shadow);
 }
 .project-card {
-  box-shadow: var(--box-shadow);
-  border-radius: 12px;
-  padding-bottom: 36px;
   height: 100%;
+  padding-bottom: 36px;
+  border-radius: 12px;
+  box-shadow: var(--box-shadow);
 }
 .project-image {
+  height: auto;
+  max-width: 100%;
   padding: 24px;
   border-radius: 36px;
-  max-width: 100%;
-  height: auto;
 }
 .project-description {
   padding: 0 36px;
 }
 .project-button {
+  padding: 16px 20px;
   border-radius: 16px;
   background-color: #0076ba;
-  padding: 16px 20px;
-  color: var(--text-light);
   font-weight: 600;
-  text-decoration: none;
-  text-transform: capitalize;
+  color: var(--text-light);
   text-align: center;
+  text-decoration: none;
   box-shadow: var(--box-shadow);
+  text-transform: capitalize;
 }
 
 .about-inner {
-  gap: 56px;
   margin: 42px 156px 42px;
+  gap: 56px;
 }
 .down-icon {
   font-size: 36px;
@@ -110,30 +110,30 @@ footer {
   letter-spacing: 0.2em;
 }
 .about-toolkit-box {
-  background-color: rgba(254, 249, 241, 0.8);
-  padding: 18px;
-  border-radius: 24px;
-  box-shadow: var(--box-shadow);
   width: fit-content;
   margin: 0 auto;
+  padding: 18px;
+  border-radius: 24px;
+  background-color: rgba(254, 249, 241, 0.8);
+  box-shadow: var(--box-shadow);
 }
 .toolkit {
   margin: 0 auto;
-  justify-content: center;
   gap: 4px;
+  justify-content: center;
 }
 .skills li {
   list-style: none;
   text-align: center;
 }
 .skills-text {
-  font-size: 8px;
-  font-weight: 500;
-  text-align: center;
-  background-color: var(--primary-color);
   padding: 2px 4px;
   font-family: var(--heading-font-family);
+  font-weight: 500;
+  font-size: 8px;
+  text-align: center;
   border-radius: 4px;
+  background-color: var(--primary-color);
   box-shadow: var(--box-shadow);
 }
 .skills img {
@@ -149,28 +149,28 @@ footer {
 }
 
 .contact-inner {
-  gap: 112px;
   margin: 80px 48px 186px;
+  gap: 112px;
 }
 .hello-box {
   padding: 48px;
   border-radius: 50%;
-  box-shadow: var(--box-shadow);
   background-color: rgb(1, 189, 186, 0.5);
+  box-shadow: var(--box-shadow);
 }
 .hello-text {
-  font-size: 146px;
   font-weight: 400;
+  font-size: 146px;
   font-style: normal;
 }
 .contact-heading {
   font-family: var(--default-font-family);
-  text-transform: lowercase;
   font-size: 40px;
+  text-transform: lowercase;
 }
 .personal-links {
-  font-size: 48px;
   gap: 96px;
+  font-size: 48px;
 }
 .personal-links a {
   color: var(--text-light);
@@ -179,8 +179,8 @@ footer {
   font-size: 20px;
 }
 .coding-links {
-  gap: 36px;
   padding: 12px 24px;
+  gap: 36px;
   border-radius: 24px;
   background-color: rgba(254, 249, 241, 0.8);
   box-shadow: var(--box-shadow);
@@ -193,24 +193,24 @@ footer {
   font-size: 28px;
 }
 .footer-email-link {
-  font-size: 18px;
   vertical-align: bottom;
+  font-size: 18px;
 }
 .footer-logos {
   max-height: 42px;
   max-width: 100%;
 }
 .linkedin-logo {
-  color: var(--text-light);
   font-size: 42px;
+  color: var(--text-light);
 }
 .footer-paragraph {
-  font-size: 12px;
-  background-color: rgb(1, 189, 186, 0.5);
-  padding: 4px 8px;
-  margin: 12px auto;
   max-width: 100%;
+  margin: 12px auto;
+  padding: 4px 8px;
   border-radius: 6px;
+  background-color: rgb(1, 189, 186, 0.5);
+  font-size: 12px;
 }
 .footer-paragraph a {
   font-weight: 500;
@@ -263,14 +263,14 @@ footer {
   }
   .hero-image,
   .about-image {
-    margin: 0 auto;
     max-width: 250px;
     max-height: 250px;
+    margin: 0 auto;
   }
   .project-card {
     display: block;
-    margin: 0 auto;
     max-width: 80%;
+    margin: 0 auto;
   }
   .project-description {
     margin-top: 16px;
@@ -286,8 +286,8 @@ footer {
     display: none;
   }
   .project-link {
-    border-radius: 4px;
     padding: 10px 12px;
+    border-radius: 4px;
     font-size: 12px;
     font-weight: 700;
   }
@@ -295,8 +295,8 @@ footer {
     gap: 12px;
   }
   .external-logos {
-    width: 100%;
     height: 32px;
+    width: 100%;
   }
 
   .contact-inner {
@@ -312,8 +312,8 @@ footer {
     font-size: 38px;
   }
   .coding-links {
-    gap: 14px;
     padding: 8px 16px;
+    gap: 14px;
     border-radius: 12px;
   }
 

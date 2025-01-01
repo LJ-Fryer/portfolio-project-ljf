@@ -161,6 +161,9 @@ footer {
   font-size: 146px;
   font-style: italic;
 }
+.contact-links {
+  margin-top: 24px;
+}
 .contact-heading {
   font-family: var(--default-font-family);
   font-size: 40px;
@@ -342,9 +345,6 @@ footer {
   }
   .hello-text {
     font-size: 116px;
-  }
-  .contact-links {
-    margin-top: 24px;
   }
   .contact-heading {
     font-size: 32px;

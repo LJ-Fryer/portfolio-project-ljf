@@ -1,12 +1,11 @@
 :root {
   --primary-color: #008080 !important;
   --secondary-color: #0076ba !important;
-  --text-light: #fef9f1 !important;
+  --text-light: #fef9f1;
   --heading-font-family: "Poppins", sans-serif;
   --default-font-family: "Nunito", sans-serif;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
   --text-shadow: 1px 1px 2px rgb(160, 160, 160);
-  --bg-light: #fef9f1 !important;
 }
 body {
   background-color: var(--primary-color);
@@ -207,7 +206,7 @@ footer {
   font-size: 12px;
 }
 .footer-paragraph a {
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .about-hobby-images {

@@ -41,6 +41,13 @@ a {
 p {
   font-size: 14px;
 }
+button {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  appearance: none;
+}
 footer {
   margin-left: 24px;
   margin-right: 24px;
@@ -100,6 +107,7 @@ footer {
   margin: 42px 156px 42px;
   gap: 56px;
 }
+.up-icon,
 .down-icon {
   font-size: 36px;
   color: rgba(254, 249, 241, 0.8);

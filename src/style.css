@@ -102,9 +102,9 @@ footer {
   box-shadow: var(--box-shadow);
   text-transform: capitalize;
 }
-.project-links img {
-  max-height: 42px;
-  max-width: 100%;
+.footer-logos img {
+  height: 42px;
+  width: 100%;
 }
 .about-inner {
   margin: 42px 156px 42px;

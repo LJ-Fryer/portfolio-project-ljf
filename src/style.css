@@ -78,7 +78,7 @@ footer {
   box-shadow: var(--box-shadow);
 }
 .project-card {
-  height: 1footer00%;
+  height: 100%;
   padding-bottom: 36px;
   border-radius: 12px;
   box-shadow: var(--box-shadow);

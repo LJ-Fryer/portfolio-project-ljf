@@ -102,7 +102,7 @@ footer {
   box-shadow: var(--box-shadow);
   text-transform: capitalize;
 }
-.footer-logos img {
+.external-logos img {
   height: 42px;
   width: 100%;
 }

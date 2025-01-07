@@ -102,10 +102,6 @@ footer {
   box-shadow: var(--box-shadow);
   text-transform: capitalize;
 }
-.-logos img {
-  height: 42px;
-  width: 100%;
-}
 .about-inner {
   margin: 42px 156px 42px;
   gap: 56px;
@@ -154,7 +150,7 @@ footer {
 }
 .external-logos {
   max-height: 42px;
-  max-width: 100%;
+  max-width: auto;
 }
 
 .contact-inner {
@@ -347,7 +343,7 @@ footer {
   }
   .external-logos {
     height: 32px;
-    width: 100%;
+    width: auto;
   }
 
   .contact-inner {

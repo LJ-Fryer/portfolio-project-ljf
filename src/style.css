@@ -33,7 +33,6 @@ ul {
   margin: 0;
 }
 a {
-  font-weight: 750;
   color: var(--text-light);
   text-decoration: none;
   text-shadow: var(--text-shadow);
@@ -101,6 +100,10 @@ footer {
   text-decoration: none;
   box-shadow: var(--box-shadow);
   text-transform: capitalize;
+}
+
+.site-navigation:hover {
+  transform: scale(1.2);
 }
 .about-inner {
   margin: 42px 156px 42px;

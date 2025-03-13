@@ -158,16 +158,18 @@ footer {
   gap: 112px;
 }
 .hello-box {
-  padding: 48px;
+  width: 425px;
   border-radius: 50%;
   background-color: rgb(1, 189, 186, 0.5);
   box-shadow: var(--box-shadow);
 }
-.hello-text {
+.hello {
+  padding: 48px;
   font-weight: 400;
   font-size: 146px;
   font-style: italic;
 }
+
 .contact-links {
   margin-top: 24px;
 }
@@ -244,6 +246,7 @@ footer {
   background-color: rgba(1, 189, 186, 0.5);
   box-shadow: var(--box-shadow);
 }
+
 @media (min-width: 385px) and (max-width: 992px) {
   .lj-pole-image {
     margin-bottom: -51px;
@@ -350,7 +353,7 @@ footer {
     flex-direction: column;
     gap: 48px;
   }
-  .hello-text {
+  .hello {
     font-size: 116px;
   }
   .contact-heading {
